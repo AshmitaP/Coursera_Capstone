@@ -5,6 +5,7 @@ The dataset consists of 38 fields and 194673 records, which includes both numeri
 The other attributes that have been taken into consideration for the analysis are 
 
 1. LOCATION - Description of the general location of the collision, 
+2. ADDRTYPE - Collision address types are 'Alley', 'Block' or 'Intersection'
 2. ROADCOND - The condition of the road during the collision (for example, 'Wet', 'Dry', 'Snow/Slush', 'Ice', 'Sand/Mud/Dirt', 'Standing Water', 'Oil',etc.),
 3. WEATHER - A description of the weather conditions during the time of the collision, (for example, 'Overcast', 'Raining', 'Clear', 'Snowing', 'Fog/Smog/Smoke', etc.),
 4. JUNCTIONTYPE - Category of junction at which collision took place (for example, 'At Intersection (intersection related)', 'Mid-Block (not related to intersection)',etc.),
