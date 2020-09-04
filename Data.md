@@ -1,8 +1,9 @@
 Dataset Used:
 
-The detailed dataset of all road collisions since 2004 can be found [here](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv). This data was provided by Seattle PD and recorded by Traffic Records.
-The dataset consists of 38 fields and 194673 records, which includes both numerical and categorical data. The label for the data set is the SEVERITYCODE, which describes the fatality of an accident. The values under this label are categorised into fatality (3), serious injury (2b), inury (2), prop damage (1) and unknown (0).
-The other attributes that have been taken into consideration for the analysis are 
+The detailed dataset of all road collisions (since 2004 to present) can be found [here](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv). This data was provided by the Seattle Police Department and recorded by Traffic Records Department.
+The dataset consists of 37 independent fields and 194673 records, which includes both numerical and categorical data. The dependent field or label for the data set is SEVERITYCODE, which describes the fatality of an accident. The values under this label are categorised into fatality (3), serious injury (2b), inury (2), prop damage (1) and unknown (0).
+
+Other attributes that have been taken into consideration for the analysis are 
 
 1. LOCATION - Description of the general location of the collision, 
 2. ADDRTYPE - Collision address types are 'Alley', 'Block' or 'Intersection'
