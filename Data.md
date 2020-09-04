@@ -1,3 +1,13 @@
 Dataset Used:
 
-The detailed dataset of all road collisions as provided by the Seattle PD (since 2004) can be found [here](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv).
+The detailed dataset of all road collisions since 2004 can be found [here](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv). This data was provided by Seattle PD and recorded by Traffic Records.
+The dataset consists of 38 fields and 194673 records, which includes both numerical and categorical data. The label for the data set is the SEVERITYCODE, which describes the fatality of an accident. The values under this label are categorised into fatality (3), serious injury (2b), inury (2), propr damage (1) and unknown (0).
+The other attributes that have been taken into consideration for the analysis are 
+1. LOCATION - Description of the general location of the collision, 
+2. ROADCOND - The condition of the road during the collision, 
+3. WEATHER - A description of the weather conditions during the time of the collision,
+4. JUNCTIONTYPE - Category of junction at which collision took place,
+5. PERSONCOUNT - The total number of people involved in the collision,
+6. VEHCOUNT - The number of vehicles involved in the collision,
+7. LIGHTCOND - The light conditions during the collision, and
+8. SPEEDING - Whether or not speeding was a factor in the collision.
